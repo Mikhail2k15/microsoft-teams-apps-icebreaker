@@ -378,6 +378,11 @@
     <Compile Include="Interfaces\IMatchingService.cs" />
     <Compile Include="Interfaces\ISecretsHelper.cs" />
     <Compile Include="Interfaces\IBotDataProvider.cs" />
+    <Compile Include="Properties\Resources.ru-Ru.Designer.cs">
+      <DependentUpon>Resources.ru-Ru.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
     <Compile Include="Services\MatchingService.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -433,6 +438,10 @@
     <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.ru-Ru.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.ru-Ru.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
