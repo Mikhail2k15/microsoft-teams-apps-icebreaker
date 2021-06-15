@@ -79,7 +79,7 @@ namespace Icebreaker.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Привет!.
+        ///   Looks up a localized string similar to Привет%21.
         /// </summary>
         public static string ChatWithMessageGreeting {
             get {
